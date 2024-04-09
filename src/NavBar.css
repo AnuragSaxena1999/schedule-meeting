@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    margin-right: 50px;
+
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+#toggler , .navbar label{
+        display: none;
+}
+#popbtn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:4px 10px;
+    background-color: blue;
+    color: white;
+    
+}
+#popbtn:hover{
+    background-color: white;
+    color: black;
+}
